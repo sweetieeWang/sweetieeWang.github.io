@@ -20,28 +20,37 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
+  <meta name="description" content="机器学习概论数学知识复习矩阵求导$$\begin{array}{l}\frac{\partial \mathbf{x}^{T} \mathbf{a}}{\partial \mathbf{x}}&#x3D;\frac{\partial \mathbf{a}^{T} \mathbf{x}}{\partial \mathbf{x}}&#x3D;\mathbf{a} \ \frac{\partial \mathbf{a}^{">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://example.com/2023/04/12/Machine_Learning/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="机器学习概论数学知识复习矩阵求导$$\begin{array}{l}\frac{\partial \mathbf{x}^{T} \mathbf{a}}{\partial \mathbf{x}}&#x3D;\frac{\partial \mathbf{a}^{T} \mathbf{x}}{\partial \mathbf{x}}&#x3D;\mathbf{a} \ \frac{\partial \mathbf{a}^{">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/Users/wangjing/Downloads/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0..png">
+<meta property="og:image" content="https://cdn.mathpix.com/snip/images/nXRmmZcFN_wIuR7Nc-faI45CWKH5hS6nU-eZ3hlYD70.original.fullsize.png">
+<meta property="og:image" content="http://example.com/Users/wangjing/Library/Application%20Support/typora-user-images/image-20211019140804340.png">
+<meta property="og:image" content="http://example.com/Users/wangjing/Library/Application%20Support/typora-user-images/image-20211116103423027.png">
+<meta property="article:published_time" content="2023-04-12T07:32:46.862Z">
+<meta property="article:modified_time" content="2023-04-12T07:34:01.434Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/Users/wangjing/Downloads/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0..png">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2023/04/12/Machine_Learning/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Hexo</title>
+  <title> | Hexo</title>
   
 
 
@@ -139,9 +148,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
@@ -157,10 +167,9 @@
       <meta itemprop="name" content="Hexo">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
+        <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2023/04/12/Machine_Learning/" class="post-title-link" itemprop="url">Untitled</a>
-        </h2>
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -184,7 +193,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="机器学习概论"><a href="#机器学习概论" class="headerlink" title="机器学习概论"></a>机器学习概论</h1><h2 id="数学知识复习"><a href="#数学知识复习" class="headerlink" title="数学知识复习"></a>数学知识复习</h2><h3 id="矩阵求导"><a href="#矩阵求导" class="headerlink" title="矩阵求导"></a>矩阵求导</h3><p>$$<br>\begin{array}{l}\frac{\partial \mathbf{x}^{T} \mathbf{a}}{\partial \mathbf{x}}=\frac{\partial \mathbf{a}^{T} \mathbf{x}}{\partial \mathbf{x}}=\mathbf{a} \ \frac{\partial \mathbf{a}^{T} \mathbf{X} \mathbf{b}}{\partial \mathbf{X}}=\mathbf{a b}^{T} \ \frac{\partial \mathbf{a}^{T} \mathbf{X}^{T} \mathbf{b}}{\partial \mathbf{X}}=\mathbf{b a}^{T} \ \frac{\partial \mathbf{a}^{T} \mathbf{X} \mathbf{a}}{\partial \mathbf{X}}=\frac{\partial \mathbf{a}^{T} \mathbf{X}^{T} \mathbf{a}}{\partial \mathbf{X}}=\mathbf{a a}^{T} \ \frac{\partial \mathbf{x}^{T} \mathbf{B} \mathbf{x}}{\partial \mathbf{x}}=\left(\mathbf{B}+\mathbf{B}^{T}\right) \mathbf{x}\end{array}<br>$$</p>
+        <h1 id="机器学习概论"><a href="#机器学习概论" class="headerlink" title="机器学习概论"></a>机器学习概论</h1><h2 id="数学知识复习"><a href="#数学知识复习" class="headerlink" title="数学知识复习"></a>数学知识复习</h2><h3 id="矩阵求导"><a href="#矩阵求导" class="headerlink" title="矩阵求导"></a>矩阵求导</h3><p>$$<br>\begin{array}{l}\frac{\partial \mathbf{x}^{T} \mathbf{a}}{\partial \mathbf{x}}=\frac{\partial \mathbf{a}^{T} \mathbf{x}}{\partial \mathbf{x}}=\mathbf{a} \ \frac{\partial \mathbf{a}^{T} \mathbf{X} \mathbf{b}}{\partial \mathbf{X}}=\mathbf{a b}^{T} \ \frac{\partial \mathbf{a}^{T} \mathbf{X}^{T} \mathbf{b}}{\partial \mathbf{X}}=\mathbf{b a}^{T} \ \frac{\partial \mathbf{a}^{T} \mathbf{X} \mathbf{a}}{\partial \mathbf{X}}=\frac{\partial \mathbf{a}^{T} \mathbf{X}^{T} \mathbf{a}}{\partial \mathbf{X}}=\mathbf{a a}^{T} \ \frac{\partial \mathbf{x}^{T} \mathbf{B} \mathbf{x}}{\partial \mathbf{x}}=\left(\mathbf{B}+\mathbf{B}^{T}\right) \mathbf{x}\end{array}<br>$$</p>
 <p><img src="/Users/wangjing/Downloads/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0..png" alt="机器学习."></p>
 <h1 id="多元线性回归"><a href="#多元线性回归" class="headerlink" title="多元线性回归"></a>多元线性回归</h1><h3 id="函数模型"><a href="#函数模型" class="headerlink" title="函数模型"></a>函数模型</h3><p><strong>函数形式</strong><br>$$<br>f(x)=\theta_{0}+\theta_{1} x_{1}+\cdots+\theta_{p} x_{p}<br>$$<br><strong>向量形式</strong>：</p>
 <p>通常一个向量指的都是列向量，向量的转置是行向量<br>$$<br>f(x)=\sum_{i=0}^{p} \theta_{i} x_{i}=\boldsymbol{\theta}^{T} x=x^{T} \boldsymbol{\theta} = \left[\left(x_{0}=1\right), x_{1}, x_{2}, \ldots, x_{p}\right]\left[\begin{array}{c}\theta_{0} \ \theta_{1} \ \vdots \ \theta_{p}\end{array}\right]<br>$$<br>损失函数：最小均方误差MSE：<br>$$<br>J(\theta)=\frac{1}{2} \sum_{i=1}^{n}\left(x_{i}^{T} \theta-y_{i}\right)^{2}<br>$$<br>线性回归模型：求解损失函数的最小值<br>$$<br>\theta^* = arg minJ(\theta)<br>$$</p>
@@ -687,91 +696,30 @@ $h_1$表示hidden layer 1 output
 <li>低维嵌入🍑</li>
 </ol>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/12/hello-world/">
+        
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Author">
-      <meta itemprop="description" content="">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/04/12/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2023-04-12 13:41:42" itemprop="dateCreated datePublished" datetime="2023-04-12T13:41:42+08:00">2023-04-12</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/04/12/hello-world/" rel="prev" title="Hello World">
+      <i class="fa fa-chevron-left"></i> Hello World
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -824,6 +772,7 @@ $h_1$表示hidden layer 1 output
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%AE%BA"><span class="nav-number">1.</span> <span class="nav-text">机器学习概论</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86%E5%A4%8D%E4%B9%A0"><span class="nav-number">1.1.</span> <span class="nav-text">数学知识复习</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC"><span class="nav-number">1.1.1.</span> <span class="nav-text">矩阵求导</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%A4%9A%E5%85%83%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92"><span class="nav-number">2.</span> <span class="nav-text">多元线性回归</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%87%BD%E6%95%B0%E6%A8%A1%E5%9E%8B"><span class="nav-number">2.0.1.</span> <span class="nav-text">函数模型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%A0%E5%85%A5%E6%95%B0%E6%8D%AE%E5%90%8E%E7%9A%84%E6%A8%A1%E5%9E%8B"><span class="nav-number">2.0.2.</span> <span class="nav-text">加入数据后的模型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A8%A1%E5%9E%8B%E6%B1%82%E8%A7%A3"><span class="nav-number">2.0.3.</span> <span class="nav-text">模型求解</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95"><span class="nav-number">2.0.3.1.</span> <span class="nav-text">梯度下降法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%AD%A3%E8%A7%84%E6%96%B9%E7%A8%8B%E6%B3%95"><span class="nav-number">2.0.3.2.</span> <span class="nav-text">正规方程法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%9A%8F%E6%9C%BA%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95"><span class="nav-number">2.0.3.3.</span> <span class="nav-text">随机梯度下降法</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%A8%E5%B1%80%E6%9C%80%E4%BC%98%E8%A7%A3"><span class="nav-number">2.0.4.</span> <span class="nav-text">全局最优解</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AF%84%E4%BC%B0%E6%96%B9%E6%B3%95"><span class="nav-number">2.0.5.</span> <span class="nav-text">评估方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%95%99%E5%87%BA%E6%B3%95"><span class="nav-number">2.0.5.1.</span> <span class="nav-text">留出法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BA%A4%E5%8F%89%E9%AA%8C%E8%AF%81%E6%B3%95"><span class="nav-number">2.0.5.2.</span> <span class="nav-text">交叉验证法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%80%A7%E8%83%BD%E5%BA%A6%E9%87%8F"><span class="nav-number">2.0.5.3.</span> <span class="nav-text">性能度量</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%EF%BC%9A%E5%B9%B3%E6%96%B9%E5%92%8C%E8%AF%AF%E5%B7%AE"><span class="nav-number">2.0.5.3.1.</span> <span class="nav-text">线性回归模型：平方和误差</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%88%86%E7%B1%BB%E4%BB%BB%E5%8A%A1%EF%BC%9A%E9%94%99%E8%AF%AF%E7%8E%87%E4%B8%8E%E7%B2%BE%E5%BA%A6"><span class="nav-number">2.0.5.3.2.</span> <span class="nav-text">分类任务：错误率与精度</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E4%BA%8E%E9%9D%9E%E7%BA%BF%E5%BD%A2%E5%9F%BA%E7%9A%84%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92"><span class="nav-number">2.1.</span> <span class="nav-text">基于非线形基的线性回归</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%9A%E9%A1%B9%E5%BC%8F%E5%9B%9E%E5%BD%92"><span class="nav-number">2.1.1.</span> <span class="nav-text">多项式回归</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#LR-%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92"><span class="nav-number">3.</span> <span class="nav-text">LR-逻辑回归</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Structural-model"><span class="nav-number">3.1.</span> <span class="nav-text">Structural model</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Error-model"><span class="nav-number">3.2.</span> <span class="nav-text">Error model</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%92%8C%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E7%9A%84%E5%AF%B9%E6%AF%94"><span class="nav-number">3.3.</span> <span class="nav-text">和线性回归的对比</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NN-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C"><span class="nav-number">4.</span> <span class="nav-text">NN-神经网络</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Structural-model-1"><span class="nav-number">4.1.</span> <span class="nav-text">Structural model</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E7%9A%84%E4%BA%8C%E9%98%B6%E6%AE%B5%E8%A1%A8%E7%A4%BA"><span class="nav-number">4.1.1.</span> <span class="nav-text">逻辑回归的二阶段表示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A5%9E%E7%BB%8F%E5%85%83"><span class="nav-number">4.1.2.</span> <span class="nav-text">神经元</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E4%B8%AA%E9%9A%90%E8%97%8F%E5%B1%82%E7%9A%84%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C"><span class="nav-number">4.1.3.</span> <span class="nav-text">一个隐藏层的神经网络</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9D%9E%E7%BA%BF%E5%BD%A2%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0"><span class="nav-number">4.1.4.</span> <span class="nav-text">非线形激活函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%9A%E5%88%86%E7%B1%BB%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C"><span class="nav-number">4.1.5.</span> <span class="nav-text">多分类神经网络</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Error-model-1"><span class="nav-number">4.2.</span> <span class="nav-text">Error model</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Loss-function"><span class="nav-number">4.2.1.</span> <span class="nav-text">Loss function</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BA%8C%E5%88%86%E7%B1%BB%E6%8D%9F%E5%A4%B1"><span class="nav-number">4.2.1.1.</span> <span class="nav-text">二分类损失</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A4%9A%E5%88%86%E7%B1%BB%E6%8D%9F%E5%A4%B1"><span class="nav-number">4.2.1.2.</span> <span class="nav-text">多分类损失</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Softmax%E5%87%BD%E6%95%B0"><span class="nav-number">4.2.1.2.1.</span> <span class="nav-text">Softmax函数</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9B%9E%E5%BD%92%E6%8D%9F%E5%A4%B1"><span class="nav-number">4.2.1.3.</span> <span class="nav-text">回归损失</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BA%8C%E6%AC%A1%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0"><span class="nav-number">4.2.1.3.1.</span> <span class="nav-text">二次代价函数</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E5%9E%8B%E5%BB%BA%E6%A8%A1"><span class="nav-number">4.3.</span> <span class="nav-text">模型建模</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD"><span class="nav-number">4.3.1.</span> <span class="nav-text">反向传播</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD%E2%80%93%E5%9B%9E%E5%BD%92%E5%AE%9E%E4%BE%8B"><span class="nav-number">4.3.1.1.</span> <span class="nav-text">反向传播–回归实例</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD%E2%80%93%E4%BA%8C%E5%88%86%E7%B1%BB%E5%AE%9E%E4%BE%8B"><span class="nav-number">4.3.1.2.</span> <span class="nav-text">反向传播–二分类实例</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD%E7%9A%84%E4%B8%80%E8%88%AC%E6%83%85%E5%BD%A2"><span class="nav-number">4.3.1.3.</span> <span class="nav-text">反向传播的一般情形</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%F0%9F%90%AE%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD%E5%9B%9B%E4%B8%AA%E6%96%B9%E7%A8%8B"><span class="nav-number">4.3.2.</span> <span class="nav-text">🐮反向传播四个方程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#BP1"><span class="nav-number">4.3.2.1.</span> <span class="nav-text">BP1</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#BP2"><span class="nav-number">4.3.2.2.</span> <span class="nav-text">BP2</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#BP3"><span class="nav-number">4.3.2.3.</span> <span class="nav-text">BP3</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#BP4"><span class="nav-number">4.3.2.4.</span> <span class="nav-text">BP4</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Summary"><span class="nav-number">4.3.2.5.</span> <span class="nav-text">Summary</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E5%9E%8B%E6%94%B9%E8%BF%9B"><span class="nav-number">4.4.</span> <span class="nav-text">模型改进</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%94%B9%E8%BF%9B%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0"><span class="nav-number">4.4.1.</span> <span class="nav-text">改进损失函数</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0%E5%AF%B9%E6%AF%94"><span class="nav-number">4.4.1.1.</span> <span class="nav-text">损失函数对比</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9D%83%E9%87%8D%E5%88%9D%E5%A7%8B%E5%8C%96%E5%BB%BA%E8%AE%AE"><span class="nav-number">4.4.2.</span> <span class="nav-text">权重初始化建议</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%87%8F%E5%B0%91%E8%BF%87%E6%8B%9F%E5%90%88-dropout"><span class="nav-number">4.4.3.</span> <span class="nav-text">减少过拟合:dropout</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BC%93%E8%A7%A3%E6%A2%AF%E5%BA%A6%E6%B6%88%E5%A4%B1-ReLU"><span class="nav-number">4.4.4.</span> <span class="nav-text">缓解梯度消失:ReLU</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SVM-%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA"><span class="nav-number">5.</span> <span class="nav-text">SVM-支持向量机</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BA%BF%E5%BD%A2%E5%8F%AF%E5%88%86-SVM"><span class="nav-number">5.1.</span> <span class="nav-text">线形可分-SVM</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E5%81%B6%E9%97%AE%E9%A2%98"><span class="nav-number">5.1.1.</span> <span class="nav-text">对偶问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Margin%E6%A8%A1%E5%9E%8B"><span class="nav-number">5.1.2.</span> <span class="nav-text">Margin模型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B"><span class="nav-number">5.1.3.</span> <span class="nav-text">分类模型</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#SVM%E2%80%93%E8%BF%9B%E9%98%B6"><span class="nav-number">5.2.</span> <span class="nav-text">SVM–进阶</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BA%BF%E5%BD%A2%E4%B8%8D%E5%8F%AF%E5%88%86SVM-%E8%BD%AF-SVM"><span class="nav-number">5.2.1.</span> <span class="nav-text">线形不可分SVM-软-SVM</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9D%9E%E7%BA%BF%E5%BD%A2-%E6%A0%B8SVM"><span class="nav-number">5.2.2.</span> <span class="nav-text">非线形-核SVM</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%9A%E5%88%86%E7%B1%BBSVM"><span class="nav-number">5.2.3.</span> <span class="nav-text">多分类SVM</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%F0%9F%8D%91SVR-%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E5%9B%9E%E5%BD%92"><span class="nav-number">5.3.</span> <span class="nav-text">🍑SVR 支持向量回归</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9%E5%92%8C%E7%A8%80%E7%96%8F%E5%AD%A6%E4%B9%A0"><span class="nav-number">6.</span> <span class="nav-text">特征选择和稀疏学习</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9"><span class="nav-number">6.1.</span> <span class="nav-text">特征选择</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%87%E6%BB%A4%E5%BC%8F%E9%80%89%E6%8B%A9"><span class="nav-number">6.2.</span> <span class="nav-text">过滤式选择</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8C%85%E8%A3%B9%E5%BC%8F%E9%80%89%E6%8B%A9"><span class="nav-number">6.3.</span> <span class="nav-text">包裹式选择</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%F0%9F%8D%91%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%80%89%E6%8B%A9%E2%80%93%E6%AD%A3%E5%88%99%E5%8C%96"><span class="nav-number">6.4.</span> <span class="nav-text">🍑嵌入式选择–正则化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#L2-%E6%AD%A3%E5%88%99%E5%8C%96"><span class="nav-number">6.4.1.</span> <span class="nav-text">L2-正则化</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%EF%BC%88-%EF%BC%89SVD-%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3"><span class="nav-number">6.4.1.1.</span> <span class="nav-text">（*）SVD 奇异值分解</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#L1-%E6%AD%A3%E5%88%99%E5%8C%96"><span class="nav-number">6.4.2.</span> <span class="nav-text">L1-正则化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Lasso%E5%9B%9E%E5%BD%92"><span class="nav-number">6.4.3.</span> <span class="nav-text">Lasso回归</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A8%80%E7%96%8F%E8%A1%A8%E7%A4%BA%E5%AD%97%E5%85%B8%E5%AD%A6%E4%B9%A0"><span class="nav-number">6.5.</span> <span class="nav-text">稀疏表示字典学习</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0"><span class="nav-number">7.</span> <span class="nav-text">集成学习</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%87%8D%E9%87%87%E6%A0%B7"><span class="nav-number">7.1.</span> <span class="nav-text">重采样</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%B2%E8%A1%8C%E5%BC%8F"><span class="nav-number">7.2.</span> <span class="nav-text">串行式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Boosting"><span class="nav-number">7.2.1.</span> <span class="nav-text">Boosting</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AE%97%E6%B3%95%E6%AD%A5%E9%AA%A4"><span class="nav-number">7.2.1.1.</span> <span class="nav-text">算法步骤</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%F0%9F%8D%91Ada-boosting"><span class="nav-number">7.2.1.2.</span> <span class="nav-text">🍑Ada boosting</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%A8%A1%E5%9E%8B"><span class="nav-number">7.2.1.2.1.</span> <span class="nav-text">模型</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%AE%97%E6%B3%95%E6%AD%A5%E9%AA%A4%EF%BC%9A"><span class="nav-number">7.2.1.2.2.</span> <span class="nav-text">算法步骤：</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Error-model-2"><span class="nav-number">7.2.1.3.</span> <span class="nav-text">Error model</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B9%B6%E8%A1%8C%E5%BC%8F"><span class="nav-number">7.3.</span> <span class="nav-text">并行式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%B3%E7%AD%96%E6%A0%91"><span class="nav-number">7.3.1.</span> <span class="nav-text">决策树</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E7%B1%BB%E5%99%A8"><span class="nav-number">8.</span> <span class="nav-text">贝叶斯分类器</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E5%9E%8B-1"><span class="nav-number">8.1.</span> <span class="nav-text">模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E7%B1%BB"><span class="nav-number">8.2.</span> <span class="nav-text">贝叶斯分类</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E7%B1%BB"><span class="nav-number">8.2.1.</span> <span class="nav-text">朴素贝叶斯分类</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%81%BF%E5%85%8D0%E6%A6%82%E7%8E%87%E9%97%AE%E9%A2%98"><span class="nav-number">8.2.1.1.</span> <span class="nav-text">避免0概率问题</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AB%98%E6%96%AF%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E7%B1%BB%E5%99%A8"><span class="nav-number">8.2.2.</span> <span class="nav-text">高斯朴素贝叶斯分类器</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%AB%98%E6%96%AF%E5%88%86%E5%B8%83"><span class="nav-number">8.2.2.1.</span> <span class="nav-text">高斯分布</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AB%98%E6%96%AF%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E7%B1%BB%E5%99%A8-1"><span class="nav-number">8.2.3.</span> <span class="nav-text">高斯朴素贝叶斯分类器</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#LDA%E5%86%B3%E7%AD%96%E9%9D%A2"><span class="nav-number">8.3.</span> <span class="nav-text">LDA决策面</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1"><span class="nav-number">8.3.1.</span> <span class="nav-text">参数估计</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#K-NN%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95"><span class="nav-number">9.</span> <span class="nav-text">K-NN分类算法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E9%93%BE"><span class="nav-number">10.</span> <span class="nav-text">马尔可夫链</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B4%9D%E5%8F%B6%E6%96%AF%E7%BD%91"><span class="nav-number">10.1.</span> <span class="nav-text">贝叶斯网</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B9%B3%E7%A8%B3%E5%88%86%E5%B8%83"><span class="nav-number">10.2.</span> <span class="nav-text">平稳分布</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#page-rank"><span class="nav-number">10.3.</span> <span class="nav-text">page-rank</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HMM%E9%9A%90%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E9%93%BE"><span class="nav-number">10.4.</span> <span class="nav-text">HMM隐马尔可夫链</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%9D%9E%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0"><span class="nav-number">11.</span> <span class="nav-text">非监督学习</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%81%9A%E7%B1%BB"><span class="nav-number">11.1.</span> <span class="nav-text">聚类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#K-means"><span class="nav-number">11.2.</span> <span class="nav-text">K-means</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A8%A1%E5%9E%8B-2"><span class="nav-number">11.2.1.</span> <span class="nav-text">模型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6%EF%BC%9A"><span class="nav-number">11.2.1.1.</span> <span class="nav-text">算法复杂度：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%9D%E5%80%BC%E5%AF%B9%E7%AE%97%E6%B3%95%E7%9A%84%E5%BD%B1%E5%93%8D%EF%BC%9A"><span class="nav-number">11.2.1.2.</span> <span class="nav-text">初值对算法的影响：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%81%9A%E7%B1%BB%E6%95%B0%E7%9B%AEK%E7%9A%84%E5%BD%B1%E5%93%8D%EF%BC%9A"><span class="nav-number">11.2.1.3.</span> <span class="nav-text">聚类数目K的影响：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%B1%80%E9%99%90%E6%80%A7"><span class="nav-number">11.2.1.4.</span> <span class="nav-text">局限性</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#K-means%E5%BB%B6%E4%BC%B8"><span class="nav-number">11.3.</span> <span class="nav-text">K-means延伸</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#PCA"><span class="nav-number">12.</span> <span class="nav-text">PCA</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%87%E5%87%86PCA"><span class="nav-number">12.1.</span> <span class="nav-text">标准PCA</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E7%A7%8D%E5%BB%BA%E6%A8%A1%E6%80%9D%E6%83%B3"><span class="nav-number">12.1.1.</span> <span class="nav-text">三种建模思想</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9C%80%E5%A4%A7%E6%8A%95%E5%BD%B1%E6%96%B9%E5%B7%AE"><span class="nav-number">12.1.1.1.</span> <span class="nav-text">最大投影方差</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9C%80%E5%B0%8F%E6%8A%95%E5%BD%B1%E8%B7%9D%E7%A6%BB"><span class="nav-number">12.1.1.2.</span> <span class="nav-text">最小投影距离</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3SVD"><span class="nav-number">12.1.2.</span> <span class="nav-text">奇异值分解SVD</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#PCA%E5%BA%94%E7%94%A8-%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86"><span class="nav-number">12.1.2.1.</span> <span class="nav-text">PCA应用-数据预处理</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A6%82%E7%8E%87PCA"><span class="nav-number">12.2.</span> <span class="nav-text">概率PCA</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%B8PCA"><span class="nav-number">12.3.</span> <span class="nav-text">核PCA</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A5%E9%AA%A4"><span class="nav-number">12.3.1.</span> <span class="nav-text">步骤</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#LLE"><span class="nav-number">12.4.</span> <span class="nav-text">LLE</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
